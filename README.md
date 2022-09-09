@@ -1,4 +1,4 @@
-# Projet Machine Learning : reconnaissance de fruits en fonction d'une image
+# Projet Data Science/ML : reconnaissance de fruits en fonction d'une image
 
 Ce projet à été réalisé par M.Bruneau Oscar et moi-même dans le cadre d'une UE de Data Science en L3 informatique, Université Paris-Saclay (grade : 20/20).
 Ce projet à pour but de développer un classifieur Naif Baeysien pour la reconnaissance d'image de fruit à partir d'une image. Pour cela, nous avons imaginé une pipeline pour choisir la meilleur représentation possible de nos données d'images notée $X \in R^{n,d}$ avec $n$ le nombre d'images du dataset et $d$ le nombre de dimension. C'est cette partie qui va être analyser, quelle dimension allons nous choisir pour nos données étant donné que notre classifieur naif bayésien repose sur une modélisation de la loi de Bernoulli. Nos features(dimensions) doivent valoir soit 0 soit 1, conformément à ce choix de modélisation.
